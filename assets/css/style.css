@@ -1,0 +1,73 @@
+body{
+    background: url('/assets/images/dangerRoom.png');
+    font-family: 'Nanum Gothic', sans-serif;
+    background-size: cover;
+    color:  #0abab5;
+
+    
+}
+p{
+    padding:0px;
+    margin:0px;
+
+}
+
+#overlay-content{ 
+position: absolute;
+display: none;
+width: 360px;
+height: 90px;
+padding: 16px;
+border: 16px solid #0abab5;
+background-color: white;
+z-index:1002;
+}
+
+.characterSelect{
+    background: #0abab5;
+    border: solid 2px black;
+    padding: 20px;
+    font-size:32px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.howToPlay{
+    text-align: left;
+    font-size: 14px;
+
+}
+#instructions{
+    text-align:center;
+    font-size:24px;
+}
+.gameScore{
+    text-align:left;
+}
+
+.tracker{
+    border:solid 1px black;
+}
+
+img{
+    width:75px;
+    height:75px;
+    border: solid 2px #0abab5
+}
+#imageFrame{
+    border: solid 2px #0abab5;
+    padding:5px;
+    background-color: white
+
+
+}
+
+#instructions{
+    background-color: #0abab5
+}
+
+#playerScreen{
+    height: 75px;
+    
+}
