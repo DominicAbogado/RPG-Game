@@ -19,29 +19,33 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-md-8">
-                <div class="row">
-                    <div class="col-md-3 shadeGlass btn btn1">
-                        <div id="imageFrame"><p>Cyclops</p>
-                            <img src="assets/images/Cyclops_1.jpg" alt="shadeGlass1" class="image shard1 gamepiece" value='0'>
+            <div class="col-md-8 charSelect">
+                <div class="row characterSelectDiv">
+                    <div class="col-md-3 charFrame btn btn1">
+                        <div class="imageFrame cyclopsChar">
+                            <p>Cyclops</p>
+                            <img src="assets/images/Cyclops_1.jpg" alt="CyclopsArt" class="image shard1 gamepiece" value='0'>
                             <p id="charHealth"></p>
                         </div>
                     </div>
-                    <div class="col-md-3 shadeGlass btn btn2">
-                        <div id="imageFrame"><p>Cable</p>
-                            <img src="assets/images/cable.jpg" alt="shadeGlass1" class="image shard2 gamepiece" value='0'>
+                    <div class="col-md-3 charFrame btn btn2">
+                        <div class="imageFrame cableChar">
+                            <p>Cable</p>
+                            <img src="assets/images/cable.jpg" alt="CableArt" class="image shard2 gamepiece" value='0'>
                             <p id="charHealth"></p>
                         </div>
                     </div>
-                    <div class="col-md-3 shadeGlass btn btn3">
-                        <div id="imageFrame"><p>Jill Valentine</p>
-                            <img src="assets/images/jill.jpg" alt="shadeGlass1" class="image shard3 gamepiece" value='0'>
+                    <div class="col-md-3 charFrame btn btn3">
+                        <div class="imageFrame jillChar">
+                            <p>Jill Valentine</p>
+                            <img src="assets/images/jill.jpg" alt="JillArt" class="image shard3 gamepiece" value='0'>
                             <p id="charHealth"></p>
                         </div>
                     </div>
-                    <div class="col-md-3 shadeGlass btn btn4">
-                        <div id="imageFrame"><p>Doctor Doom</p>
-                            <img src="assets/images/doctorDoom.jpg" alt="shadeGlass1" class="image shard4 gamepiece" value='0'>
+                    <div class="col-md-3 charFrame btn btn4">
+                        <div class="imageFrame doomChar">
+                            <p>Doctor Doom</p>
+                            <img src="assets/images/doctorDoom.jpg" alt="DoomArt" class="image shard4 gamepiece" value='0'>
                             <p id="charHealth"></p>
                         </div>
                     </div>
@@ -49,8 +53,14 @@
             </div>
             <div class="col-md-8 playerScreen">
                 <h3>Your Character</h3>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div id="chosenChar"></div>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-8 enemySelect">Enemies available to attack
+            <div class="col-md-8">Enemies available to attack
+                <div id="enemySelect"></div>
             </div>
             <div class="col-md-8">
                 <h3>Fight Section</h3>
